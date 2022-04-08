@@ -2,9 +2,6 @@ header,
 main {
   margin: 0 auto;
   max-width: 50em;
-}
-
-header {
   text-align: center;
 }
 
@@ -18,24 +15,7 @@ body {
   padding: 20px;
 }
 
-h1, strong {
+h1 {
   color: #333;
   font-weight: 500;
-}
-
-#me {
-  border-radius: 2%;
-  margin-bottom: 20px;
-
-  width: 50%;
-  float: left;
-  margin-right: 60px;
-}
-
-@media (max-width: 500px) {
-  #me {
-    width: 100%;
-    float: none;
-    margin-right: 0px;
-  }
 }
